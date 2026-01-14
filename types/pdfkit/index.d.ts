@@ -404,8 +404,8 @@ declare namespace PDFKit.Mixins {
         /** Two elements array specifying dimensions(w,h)  */
         fit?: [number, number] | undefined;
         cover?: [number, number] | undefined;
-        align?: "center" | "right" | undefined;
-        valign?: "center" | "bottom" | undefined;
+        align?: "left" | "center" | "right" | undefined;
+        valign?: "top" | "center" | "bottom" | undefined;
         link?: string | AnnotationOption | undefined;
         goTo?: AnnotationOption | undefined;
         destination?: string | undefined;
