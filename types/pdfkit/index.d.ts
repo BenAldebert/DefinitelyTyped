@@ -577,7 +577,7 @@ declare namespace PDFKit.Mixins {
         /** An array of OpenType feature tags to apply. If not provided, a set of defaults is used. */
         features?: OpenTypeFeatures[] | undefined;
         /** Sets a list as unordered, ordered or lettered */
-        listType?: "bullet" | "numbered" | "lettered" | undefined;
+        listType?: "bullet" | "numbered" | "roman" | "roman-lower" | "lettered" | undefined;
         /** The radius of bullet points in a list. Works only with listType: 'bullet' */
         bulletRadius?: number | undefined;
         /** The indent of bullet points in a list */
